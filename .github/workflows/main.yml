@@ -28,7 +28,6 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install -r ./requirements.txt
 
       - run: python3 action_test1.py
 
